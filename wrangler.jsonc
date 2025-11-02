@@ -1,0 +1,16 @@
+{
+    "name": "cf-ai-chat",
+    "main": "src/worker.ts",
+    "compatibility_date": "2025-10-10",
+    "ai": { "binding": "AI" },
+    "durable_objects": {
+      "bindings": [
+        { "name": "SESSION_DO", "class_name": "SessionDO" }
+      ]
+    },
+    "kv_namespaces": [
+      { "binding": "CHAT_KV", "id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" }
+    ],
+    "observability": { "enabled": true },
+    "assets": { "directory": "public" }
+  }

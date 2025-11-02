@@ -1,0 +1,14 @@
+{
+  "name": "cf-ai-chat",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --local --persist-to ./wrangler-state",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20251014.0",
+    "wrangler": ">=3.89.0"
+  }
+}
