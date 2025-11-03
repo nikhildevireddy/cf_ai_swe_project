@@ -9,7 +9,7 @@
       ]
     },
     "kv_namespaces": [
-      { "binding": "CHAT_KV", "id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" }
+      { "binding": "CHAT_KV", "id": "ec6388608e0a467d9e85728c01686af3" }
     ],
     "observability": { "enabled": true },
     "assets": { "directory": "public" }
